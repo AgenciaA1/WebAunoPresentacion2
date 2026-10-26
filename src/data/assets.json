@@ -1,0 +1,271 @@
+{
+  "projects": {
+    "blumos": [
+      "/projects/blumos/01.webp",
+      "/projects/blumos/02.webp",
+      "/projects/blumos/03.webp",
+      "/projects/blumos/04.webp"
+    ],
+    "salcopets": [
+      "/projects/salcopets/01.webp",
+      "/projects/salcopets/02.webp",
+      "/projects/salcopets/03.webp"
+    ],
+    "ogx": [
+      "/projects/ogx/01.webp",
+      "/projects/ogx/02.webp",
+      "/projects/ogx/03.webp",
+      "/projects/ogx/04.webp",
+      "/projects/ogx/05.webp",
+      "/projects/ogx/06.webp",
+      "/projects/ogx/07.webp",
+      "/projects/ogx/08.webp"
+    ],
+    "cluny": [
+      "/projects/cluny/01.webp",
+      "/projects/cluny/02.webp",
+      "/projects/cluny/03.webp"
+    ],
+    "babyprotec": [
+      "/projects/babyprotec/01.webp",
+      "/projects/babyprotec/02.webp",
+      "/projects/babyprotec/03.webp"
+    ],
+    "hidrolatina": [
+      "/projects/hidrolatina/01.webp",
+      "/projects/hidrolatina/02.webp"
+    ],
+    "pinwine": [
+      "/projects/pinwine/01.webp",
+      "/projects/pinwine/02.webp",
+      "/projects/pinwine/03.webp"
+    ],
+    "arcor": [
+      "/projects/arcor/01.webp",
+      "/projects/arcor/02.webp"
+    ],
+    "axim": [
+      "/projects/axim/01.webp",
+      "/projects/axim/02.webp",
+      "/projects/axim/03.webp"
+    ],
+    "capital-natural": [
+      "/projects/capital-natural/01.webp",
+      "/projects/capital-natural/02.webp",
+      "/projects/capital-natural/03.webp",
+      "/projects/capital-natural/04.webp",
+      "/projects/capital-natural/05.webp",
+      "/projects/capital-natural/06.webp",
+      "/projects/capital-natural/07.webp",
+      "/projects/capital-natural/08.webp"
+    ],
+    "conecta-costanera": [
+      "/projects/conecta-costanera/01.webp",
+      "/projects/conecta-costanera/02.webp",
+      "/projects/conecta-costanera/03.webp"
+    ],
+    "equilibrio": [
+      "/projects/equilibrio/01.webp",
+      "/projects/equilibrio/02.webp",
+      "/projects/equilibrio/03.webp"
+    ]
+  },
+  "logos": [
+    {
+      "name": "SantanderGCB",
+      "src": "/logos/santandergcb.webp"
+    },
+    {
+      "name": "Agea",
+      "src": "/logos/agea.webp"
+    },
+    {
+      "name": "Cannon",
+      "src": "/logos/cannon.webp"
+    },
+    {
+      "name": "NobleCrianza",
+      "src": "/logos/noblecrianza.webp"
+    },
+    {
+      "name": "SalcoPets",
+      "src": "/logos/salcopets.webp"
+    },
+    {
+      "name": "Salcobrand",
+      "src": "/logos/salcobrand.webp"
+    },
+    {
+      "name": "blumos",
+      "src": "/logos/blumos.webp"
+    },
+    {
+      "name": "CruzVerde",
+      "src": "/logos/cruzverde.webp"
+    },
+    {
+      "name": "Recetario",
+      "src": "/logos/recetario.webp"
+    },
+    {
+      "name": "Eurofarma",
+      "src": "/logos/eurofarma.webp"
+    },
+    {
+      "name": "Medcell",
+      "src": "/logos/medcell.webp"
+    },
+    {
+      "name": "prodalam",
+      "src": "/logos/prodalam.webp"
+    },
+    {
+      "name": "arama",
+      "src": "/logos/arama.webp"
+    },
+    {
+      "name": "DSLABO",
+      "src": "/logos/dslabo.webp"
+    },
+    {
+      "name": "Hidrolatina",
+      "src": "/logos/hidrolatina.webp"
+    },
+    {
+      "name": "OGX",
+      "src": "/logos/ogx.webp"
+    },
+    {
+      "name": "SVR",
+      "src": "/logos/svr.webp"
+    },
+    {
+      "name": "Babe",
+      "src": "/logos/babe.webp"
+    },
+    {
+      "name": "Chemie",
+      "src": "/logos/chemie.webp"
+    },
+    {
+      "name": "Cluny",
+      "src": "/logos/cluny.webp"
+    },
+    {
+      "name": "Vitaminlife",
+      "src": "/logos/vitaminlife.webp"
+    },
+    {
+      "name": "KSLIFE",
+      "src": "/logos/kslife.webp"
+    },
+    {
+      "name": "Nova chemie",
+      "src": "/logos/nova-chemie.webp"
+    },
+    {
+      "name": "Hortitec",
+      "src": "/logos/hortitec.webp"
+    },
+    {
+      "name": "Socofar",
+      "src": "/logos/socofar.webp"
+    },
+    {
+      "name": "Axim",
+      "src": "/logos/axim.webp"
+    },
+    {
+      "name": "Notts",
+      "src": "/logos/notts.webp"
+    },
+    {
+      "name": "Pharmatech",
+      "src": "/logos/pharmatech.webp"
+    },
+    {
+      "name": "Transmat",
+      "src": "/logos/transmat.webp"
+    },
+    {
+      "name": "equilibrio",
+      "src": "/logos/equilibrio.webp"
+    },
+    {
+      "name": "farma precio",
+      "src": "/logos/farma-precio.webp"
+    },
+    {
+      "name": "pharmaBenefis",
+      "src": "/logos/pharmabenefis.webp"
+    },
+    {
+      "name": "Republikofbeauty",
+      "src": "/logos/republikofbeauty.webp"
+    },
+    {
+      "name": "Viveros chile",
+      "src": "/logos/viveros-chile.webp"
+    },
+    {
+      "name": "Naturalis",
+      "src": "/logos/naturalis.webp"
+    },
+    {
+      "name": "Colorbel",
+      "src": "/logos/colorbel.webp"
+    },
+    {
+      "name": "Evermax",
+      "src": "/logos/evermax.webp"
+    },
+    {
+      "name": "Farmax",
+      "src": "/logos/farmax.webp"
+    },
+    {
+      "name": "Mipal",
+      "src": "/logos/mipal.webp"
+    },
+    {
+      "name": "Qclass",
+      "src": "/logos/qclass.webp"
+    },
+    {
+      "name": "Fojucc",
+      "src": "/logos/fojucc.webp"
+    },
+    {
+      "name": "CelticSolar",
+      "src": "/logos/celticsolar.webp"
+    },
+    {
+      "name": "completitud",
+      "src": "/logos/completitud.webp"
+    },
+    {
+      "name": "Covecorp",
+      "src": "/logos/covecorp.webp"
+    },
+    {
+      "name": "Flautas etnicas",
+      "src": "/logos/flautas-etnicas.webp"
+    },
+    {
+      "name": "Interaxion",
+      "src": "/logos/interaxion.webp"
+    },
+    {
+      "name": "thermofoam",
+      "src": "/logos/thermofoam.webp"
+    },
+    {
+      "name": "rda",
+      "src": "/logos/rda.webp"
+    },
+    {
+      "name": "YoSoy",
+      "src": "/logos/yosoy.webp"
+    }
+  ]
+}
