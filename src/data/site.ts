@@ -8,7 +8,23 @@ export const SECTIONS = [
   { id: 'contacto', label: 'Contacto' },
 ] as const;
 
-export const CONTACT_EMAIL = 'contacto@auno.cl';
+export const CONTACT_EMAIL = 'contacto@auno.cl'; // TODO: confirmar
+
+// Footer contact block. Empty values are hidden. TODO: completar con los datos reales.
+export const CONTACT = {
+  email: CONTACT_EMAIL,
+  phone: '', // ej. '+56 9 1234 5678'
+  location: 'Santiago, Chile · Remote-first',
+  web: 'auno.cl',
+};
+
+// TODO: reemplazar '#' por las URLs reales de cada red
+export const SOCIALS = [
+  { name: 'Instagram', url: '#' },
+  { name: 'LinkedIn', url: '#' },
+  { name: 'Facebook', url: '#' },
+  { name: 'Behance', url: '#' },
+];
 
 // KPI figures. `null` = pending real data (renders as "—" with a pending note).
 export const STATS: { value: number | null; suffix?: string; label: string; note: string }[] = [
@@ -19,15 +35,15 @@ export const STATS: { value: number | null; suffix?: string; label: string; note
 ];
 
 export const TEAM = [
-  { name: 'Juan Mardones C.', role: 'Dirección Comercial' },
-  { name: 'Juan Pablo Martínez R.', role: 'Dirección Creativa General' },
-  { name: 'Felipe Aguilar L.', role: 'Director Data · Social Media' },
-  { name: 'Pablo Méndez R.', role: 'Diseñador Gráfico' },
-  { name: 'Pablo Andrés P.', role: 'Diseñador Gráfico' },
-  { name: 'Pablo Martínez F.', role: 'Diseñador Gráfico' },
+  { name: 'Juan Mardones C.', role: 'Dirección Comercial', photo: '/team/juan-mardones.webp' },
+  { name: 'Juan Pablo Martínez R.', role: 'Dirección Creativa General', photo: '/team/juan-pablo-martinez.webp' },
+  { name: 'Felipe Aguilar L.', role: 'Director Data · Social Media', photo: '/team/felipe-aguilar.webp' },
+  { name: 'Pablo Méndez R.', role: 'Diseñador Gráfico', photo: '/team/pablo-mendez.webp' },
+  { name: 'Pablo Andrés P.', role: 'Diseñador Gráfico', photo: '/team/pablo-andres.webp' },
+  { name: 'Pablo Martínez F.', role: 'Diseñador Gráfico', photo: '/team/pablo-martinez.webp' },
   { name: 'Agustín Ibarra E.', role: 'Diseñador Gráfico' },
-  { name: 'Edith Ruiz', role: 'Community Manager' },
-  { name: 'Álvaro Roa C.', role: 'Community Manager' },
-  { name: 'Diego Cerda R.', role: 'Content Manager' },
+  { name: 'Edith Ruiz', role: 'Community Manager', photo: '/team/edith-ruiz.webp' },
+  { name: 'Álvaro Roa C.', role: 'Community Manager', photo: '/team/alvaro-roa.webp' },
+  { name: 'Diego Cerda R.', role: 'Content Manager', photo: '/team/diego-cerda.webp' },
   { name: 'Tomás Roetti', role: 'Web Developer' },
 ] as { name: string; role: string; photo?: string }[];

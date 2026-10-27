@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react';
 import { TEAM } from '../data/site';
 import { useReveal } from '../hooks/useReveal';
+import { asset } from '../lib/asset';
 
 const initials = (name: string) =>
   name.split(' ').filter(w => /^[A-ZÁÉÍÓÚ]/.test(w) && !w.endsWith('.')).slice(0, 2).map(w => w[0]).join('');
@@ -17,9 +18,9 @@ export default function Team() {
       <ul className="grid gap-px bg-line md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
         {TEAM.map((m, i) => (
           <li key={m.name} data-reveal style={{ '--i': i } as CSSProperties} className="group relative bg-ink">
-            <div className="relative aspect-[4/3] overflow-hidden bg-ink-3">
+            <div className="relative aspect-square overflow-hidden bg-ink-3">
               {m.photo ? (
-                <img src={m.photo} alt={m.name} loading="lazy" className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0" />
+                <img src={asset(m.photo)} alt={m.name} loading="lazy" decoding="async" className="h-full w-full object-cover object-top grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0" />
               ) : (
                 <div aria-hidden="true" className="relative z-10 flex h-full items-end p-6">
                   <span className="text-8xl leading-none font-black tracking-tighter text-white/10 transition-colors duration-500 group-hover:text-ink">
@@ -30,8 +31,8 @@ export default function Team() {
               {/* yellow wipe from bottom-left on hover */}
               <span
                 aria-hidden="true"
-                className="absolute inset-0 -z-0 bg-sun mix-blend-normal transition-[clip-path] duration-500 ease-[var(--ease-out-expo)] [clip-path:polygon(0_100%,0_100%,0_100%)] group-hover:[clip-path:polygon(0_0,100%_100%,0_100%)]"
-                style={{ zIndex: m.photo ? 1 : 0, opacity: m.photo ? 0.85 : 1 }}
+                className={`absolute inset-0 -z-0 bg-sun mix-blend-normal transition-[clip-path] duration-500 ease-[var(--ease-out-expo)] [clip-path:polygon(0_100%,0_100%,0_100%)] ${m.photo ? 'group-hover:[clip-path:polygon(0_72%,28%_100%,0_100%)]' : 'group-hover:[clip-path:polygon(0_0,100%_100%,0_100%)]'}`}
+                style={{ zIndex: m.photo ? 1 : 0 }}
               />
               <span className="absolute top-4 right-4 z-10 font-mono text-xs text-mute group-hover:text-ink">{String(i + 1).padStart(2, '0')}</span>
             </div>

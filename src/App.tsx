@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import SideNav from './components/SideNav';
-import Logo from './components/Logo';
+import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Stats from './sections/Stats';
@@ -33,12 +33,7 @@ export default function App({ PortfolioSection = Portfolio }: { PortfolioSection
         <Team />
         <Contact />
       </main>
-      <footer className="border-t border-line bg-ink px-4 py-12 md:px-10">
-        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
-          <Logo className="h-16 w-16" />
-          <p className="text-sm text-mute">© {new Date().getFullYear()} Agencia A1 · auno.cl · Branding y comunicación digital</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

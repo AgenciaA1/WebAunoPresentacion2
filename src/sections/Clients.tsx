@@ -22,7 +22,7 @@ export default function Clients() {
             key={logo.src}
             data-reveal
             style={{ '--i': i % 12 } as CSSProperties}
-            className="group relative grid aspect-[3/2] place-items-center border-r border-b border-line p-6"
+            className="group relative aspect-square overflow-hidden border-r border-b border-line"
           >
             {/* yellow corner wedge on hover */}
             <span aria-hidden="true" className="absolute top-0 right-0 h-0 w-0 border-t-[0px] border-l-[0px] border-t-sun border-l-transparent transition-all duration-300 group-hover:border-t-[18px] group-hover:border-l-[18px]" />
@@ -31,7 +31,7 @@ export default function Clients() {
               alt={logo.name}
               loading="lazy"
               decoding="async"
-              className="max-h-[46%] max-w-[70%] object-contain opacity-75 transition duration-300 group-hover:scale-105 group-hover:opacity-100"
+              className="absolute inset-[22%] h-[56%] w-[56%] object-contain opacity-75 transition duration-300 group-hover:scale-105 group-hover:opacity-100"
             />
           </li>
         ))}
