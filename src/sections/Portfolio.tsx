@@ -31,7 +31,7 @@ export default function Portfolio() {
 
   const open = useCallback((i: number) => {
     setOpenIndex(i);
-    track('project_open', { project: list[i].slug });
+    track('project_open', { project: list[i].slug, version: 'propuesta-2' });
   }, [list]);
 
   return (

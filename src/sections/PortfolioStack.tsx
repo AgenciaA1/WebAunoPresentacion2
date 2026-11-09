@@ -6,7 +6,7 @@ import ProjectDialog from '../components/ProjectDialog';
 import { track } from '../lib/track';
 
 /**
- * Propuesta 2 — Portfolio as a scroll story: each project appears as a group of
+ * Home portfolio — a scroll story: each project appears as a group of
  * three images that reveal as you scroll, up to SHOWN projects; then "Ver todos"
  * expands a card grid with every loaded project.
  */
@@ -102,7 +102,7 @@ export default function PortfolioStack() {
 
   const open = useCallback((i: number) => {
     setOpenIndex(i);
-    track('project_open', { project: allProjects[i].slug, version: 'propuesta-2' });
+    track('project_open', { project: allProjects[i].slug, version: 'home' });
   }, []);
 
   return (

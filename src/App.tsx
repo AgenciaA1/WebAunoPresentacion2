@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Stats from './sections/Stats';
-import Portfolio from './sections/Portfolio';
+import PortfolioStack from './sections/PortfolioStack';
 import Clients from './sections/Clients';
 import Team from './sections/Team';
 import Contact from './sections/Contact';
@@ -14,8 +14,8 @@ import type { ComponentType } from 'react';
 
 const IDS = SECTIONS.map(s => s.id);
 
-/** Shared page shell. Propuesta 2 (propuesta-2.html) swaps only the portfolio section. */
-export default function App({ PortfolioSection = Portfolio }: { PortfolioSection?: ComponentType }) {
+/** Shared page shell. Home uses the scroll-reveal portfolio; propuesta-2.html swaps in the FlexCarousel one. */
+export default function App({ PortfolioSection = PortfolioStack }: { PortfolioSection?: ComponentType }) {
   const active = useScrollSpy(IDS);
   return (
     <>
